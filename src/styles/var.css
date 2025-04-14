@@ -1,0 +1,56 @@
+:root {
+            /* ===== Типографика ===== */
+            --font-size-sm: 14px;
+            --font-size-md: 22px;
+            --font-size-lg: 24px;
+            --font-size-xl: 32px;
+            --font-size-xxl: 100px; 
+            --font-size-section-title: 50px;
+          
+            --padding-xl: 40px;
+
+            --spacing-xl: 24px;
+
+            --border-radius: 20px; 
+        
+            --font-family-base: 'Montserrat', sans-serif;
+        
+            --transition-duration: 0.2s;    
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-primary: #E9DEFF;      /* Основной брендовый цвет */
+        --color-secondary: #0B001A;     /* Дополнительный цвет */
+        --color-accent: linear-gradient(#8338EC, #B923FF);
+        --color-third: #1E0044;
+    
+        --color-danger: #e74c3c;        /* Цвет ошибок */
+        --color-success: #2ecc71;        /* Цвет успеха */
+        --color-warning: #f39c12;       /* Цвет предупреждений */
+      
+        /* ===== Функциональные цвета (по назначению) ===== */
+        --color-border: linear-gradient(to right, #8338EC, #B923FF);        /* Границы по умолчанию */
+        --color-shadow: #a32df71e;/*  Тени */
+
+        --color-gallery: #FFFFFF;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-primary: #E9DEFF;;       /* Основной брендовый цвет */
+        --color-secondary: #0B001A;     /* Дополнительный цвет */
+        --color-accent: linear-gradient(#8338EC, #B923FF);
+        --color-third: #1E0044;
+    
+        --color-danger: #e74c3c;        /* Цвет ошибок */
+        --color-success: #2ecc71;        /* Цвет успеха */
+        --color-warning: #f39c12;       /* Цвет предупреждений */
+      
+        /* ===== Функциональные цвета (по назначению) ===== */
+        --color-border: linear-gradient(#8338EC, #B923FF);        /* Границы по умолчанию */
+        --color-shadow: #a32df71e; /* Тени */
+
+        --color-gallery: #FFFFFF;
+    }
+}
