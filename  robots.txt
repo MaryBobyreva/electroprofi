@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marybobyreva.github.io/electroprofi/sitemap.xml
+Host: https://marybobyreva.github.io
+
+# Для улучшения индексации
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# Конкретно укажем страницу
+# чтобы поисковики точно обратили внимание
+Disallow: /src/
