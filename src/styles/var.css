@@ -6,10 +6,10 @@
             --font-size-xl: 32px;
             --font-size-xxl: 100px; 
             --font-size-section-title: 50px;
-          
+
             --padding-xl: 40px;
 
-            --spacing-xl: 24px;
+            --spacing-xl: 40px;
 
             --border-radius: 20px; 
         
@@ -19,38 +19,38 @@
 }
 @media (prefers-color-scheme: light) {
     :root {
-        --color-primary: #E9DEFF;      /* Основной брендовый цвет */
-        --color-secondary: #0B001A;     /* Дополнительный цвет */
-        --color-accent: linear-gradient(#8338EC, #B923FF);
-        --color-third: #1E0044;
+        --color-primary: #000000;      /* Основной брендовый цвет */
+        --color-secondary: #ffffff;     /* Дополнительный цвет */
+        --color-accent: linear-gradient(#e0ec38, #23ff69);
+        --color-third: #020202;
     
         --color-danger: #e74c3c;        /* Цвет ошибок */
         --color-success: #2ecc71;        /* Цвет успеха */
         --color-warning: #f39c12;       /* Цвет предупреждений */
       
         /* ===== Функциональные цвета (по назначению) ===== */
-        --color-border: linear-gradient(to right, #8338EC, #B923FF);        /* Границы по умолчанию */
-        --color-shadow: #a32df71e;/*  Тени */
+        --color-border: linear-gradient(to right, #e0ec38, #23ff69);        /* Границы по умолчанию */
+        --color-shadow: #2d9cf71e;/*  Тени */
 
-        --color-gallery: #FFFFFF;
+        --color-light: #ffffff;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-primary: #E9DEFF;;       /* Основной брендовый цвет */
-        --color-secondary: #0B001A;     /* Дополнительный цвет */
-        --color-accent: linear-gradient(#8338EC, #B923FF);
-        --color-third: #1E0044;
+        --color-primary: #ffffff;      /* Основной брендовый цвет */
+        --color-secondary: #000000;     /* Дополнительный цвет */
+        --color-accent: linear-gradient(#e0ec38, #23ff69);
+        --color-third: #021033;
     
         --color-danger: #e74c3c;        /* Цвет ошибок */
         --color-success: #2ecc71;        /* Цвет успеха */
         --color-warning: #f39c12;       /* Цвет предупреждений */
       
         /* ===== Функциональные цвета (по назначению) ===== */
-        --color-border: linear-gradient(#8338EC, #B923FF);        /* Границы по умолчанию */
-        --color-shadow: #a32df71e; /* Тени */
+        --color-border: linear-gradient(to right, #e0ec38, #23ff69);        /* Границы по умолчанию */
+        --color-shadow: #2d9cf71e;/*  Тени */
 
-        --color-gallery: #FFFFFF;
+        --color-light: #ffffff;
     }
 }

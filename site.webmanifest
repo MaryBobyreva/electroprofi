@@ -1,0 +1,26 @@
+{
+    "name": "Электромонтаж Олега Сечко",
+    "short_name": "Электромонтаж",
+    "description": "Профессиональные электромонтажные работы для бизнеса и частных заказчиков.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0B001A",
+    "theme_color": "#0B001A",
+    "icons": [
+        {
+            "src": "/icons/logo-192x192.jpg",
+            "sizes": "192x187",
+            "type": "image/jpg"
+        },
+        {
+            "src": "/icons/logo-512x512.jpg",
+            "sizes": "513x499",
+            "type": "image/jpg"
+        },
+        {
+            "src": "/icons/logo-2x2.png",
+            "sizes":"144x144",
+            "type": "image/png"
+        }
+    ]
+}
